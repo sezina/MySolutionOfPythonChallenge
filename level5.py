@@ -9,7 +9,5 @@
 import pickle
 
 f = open('banner.p', 'r')
-#print pickle.load(f)
-#print ''.join(pickle.load(f))
 for line in pickle.load(f):
     print ''.join([element[0] * element[1] for element in line])
