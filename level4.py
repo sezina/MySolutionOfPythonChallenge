@@ -3,7 +3,6 @@
 # level4.py
 import urllib
 from string import split
-import re
 
 urlPrefix = r'http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing='
 url = urlPrefix + '12345'
